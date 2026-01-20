@@ -1,0 +1,27 @@
+# Quicklinks - AI Engineering
+
+Quicklinks are to help you **easily navigate individual session information** for `AI Engineering`!  
+
+| 📰 Session Sheet | ⏺️ Recording | 🖼️ Slides     | 👨‍💻 Repo     | 📝 Homework      | 📁 Feedback       |
+|:-----------------|:-----------------|:-----------------|:-----------------|:-----------------|:-----------------|
+| [Vibe Check!](../00_Docs/Session_Sheets/01_Vibe_Check.md) |[Recording!](https://drive.google.com/file/d/1Rsmm0Hld3WFHRxhZpEDLN_JREQ43yhwu/view?usp=drive_link) | [Session 1 Slides](https://www.canva.com/design/DAG-EBzN2PQ/gE9-Uma217yych4M7GCjSw/edit?utm_content=DAG-EBzN2PQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) | [01_Vibe_Check](../01_Vibe_Check) | [Session 1 Assignment: Vibe Check](https://forms.gle/NeN59bCLdtXvwzVJ9) | [Feedback 1/13](https://forms.gle/1im4nmYK9cW9MFEk6) |
+|[Dense Vector Retrieval](../00_Docs/Session_Sheets/02_Dense_Vector_Retrieval.md) |[Recording!](https://us02web.zoom.us/rec/share/91RvgSsquU3LHdQIelq_XfsX_um9NrqaN5YBBBHtnUbkDLo5Ngy7otxlDGCTLBrV.zwbgMtyEdRE5dASI) <br> passcode: `%N6ZHDEz`| [Session 2 Slides](https://www.canva.com/design/DAG-EJWkrYk/Oj3SPEB09HDScDpnEiWHMA/edit?utm_content=DAG-EJWkrYk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) | [02_Dense_Vector_Retrieval](../02_Dense_Vector_Retrieval) | [Session 2 Assignment: Pythonic RAG](https://forms.gle/WB87UU7S1vp93yUZ9) | [Feedback 1/15](https://forms.gle/9qZGU19jGmg4RZdd8) |
+
+
+## Initial Setup
+1. [Git and GitHub](../00_Docs/Prerequisites/Initial_Setup/1_Git_and_GitHub)
+2. [Set Up Initial Repos](../00_Docs/Prerequisites/Initial_Setup/2_Set_Up_Initial_Repos)
+3. [Branch Development](../00_Docs/Prerequisites/Initial_Setup/3_Branch_Development)
+4. [Your Weekly Git Workflow](../00_Docs/Prerequisites/Initial_Setup/4_Your_Weekly_Git_Workflow)
+5. [Coding Agents](../00_Docs/Prerequisites/Initial_Setup/5_Coding_Agents)
+6. [LLM APIs](../00_Docs/Prerequisites/Initial_Setup/6_LLM_APIs)
+7. [Testing Scripts](../00_Docs/Prerequisites/Initial_Setup/scripts)
+
+## Onramp Sessions
+A 4-week live session series designed to help prepare for the AI Engineering Bootcamp.
+| 📰 Session Topic | ⏺️ Recording  | 🖼️ Slides     | 👨‍💻 Repo     |
+|:-----------------|:-------------|:--------------|:--------------|
+| AI Assisted Development | [Recording!](https://us02web.zoom.us/rec/share/ztpkCP9S-eTyVe7CCFLpF2CM3_PWu-P81DBGmcZeYAW7DtSK9VL1elHIoDjdm_oW.RC-nq31aDuoYziOV) (f1#j7Nr^) | [Slides](https://www.canva.com/design/DAG6SNRlYoI/bpELIN03JVB1xNkd9yo8lA/edit?utm_content=DAG6SNRlYoI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) | [Repo](https://github.com/AI-Maker-Space/AIE9/tree/main/00_Docs/Prerequisites/The_AI_Engineer_Onramp_Cohort_2/Session_01_AI_Assisted_Development) |
+| Backend Development & Deployment | [Recording!](https://us02web.zoom.us/rec/share/IXFR3_h72eZ1TbXWWVRiaE4xTSQIPBnpIRZUR-M5450uR8CIo-5kza1ixH9BanrA.KKu-OIqI1YHr3cfZ ) (=7Ld3A2L) | [Slides](https://www.canva.com/design/DAG492HUYsU/d98h86nIBAbpLsJ2TBFriQ/edit?utm_content=DAG492HUYsU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) | [Repo](https://github.com/AI-Maker-Space/AIE9/tree/main/00_Docs/Prerequisites/The_AI_Engineer_Onramp_Cohort_2/Session_02_Back_End_Web_App_Development_%26_Deployment_of_LLM_Applications) |
+| Connecting Frontend | [Recording!](https://us02web.zoom.us/rec/share/LUaI1ZfiHiS8CKPdkiLdV3P7nC28VdfdgQevT8QSQZ1nxhrBQ5OZMdiRTcxkdcdG.XuT4aDzDRCfgJ42M) (Ys&0R.s3) | [Slides](https://www.canva.com/design/DAG6SJk52Ac/h9ESc8SDgV9ARGtHs70sHQ/edit?utm_content=DAG6SJk52Ac&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) | [Repo](https://github.com/AI-Maker-Space/AIE9/tree/main/00_Docs/Prerequisites/The_AI_Engineer_Onramp_Cohort_2/Session_03_Connecting_Frontend_UIs_to_Backend_Deployments) |
+| Complex End to End | [Recording!](https://us02web.zoom.us/rec/share/0XHmXdmnULUwBUsRGaDeHYP6yZcuzZZADyd42X3Nrbxi73X8dUYuC4YSvBHRVxBC.8g8j2q03cpENfEnb) (y^X2R#Qx) | [Slides](https://www.canva.com/design/DAG6SMVEUDw/xmV9dQcJlpCNr-tYpL5hZw/edit?utm_content=DAG6SMVEUDw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) | [Repo](https://github.com/AI-Maker-Space/AIE9/tree/main/00_Docs/Prerequisites/The_AI_Engineer_Onramp_Cohort_2/Session_04_Bulding_Complex_End_to_End_LLM_Applications) |
