@@ -45,21 +45,26 @@ You will be required to submit a link to your GitHub, as well as screenshots of 
 Please evaluate your system on the following questions:
 
 1. Explain the concept of object-oriented programming in simple terms to a complete beginner.
-    - Aspect Tested:
+    - Aspect Tested: Knowledge Transfer & Persona Consistency.
+    - Observation: Successfully bridged a technical concept into a "Teaching/Onboarding" job requirement.
 2. Read the following paragraph and provide a concise summary of the key points…
-    - Aspect Tested:
+    - Aspect Tested: Information Density & Technical Entity Extraction.
+    - Observation: Precisely extracted "AWS Lambda" and "RDS" as missing keywords from the JD.
 3. Write a short, imaginative story (100–150 words) about a robot finding friendship in an unexpected place.
-    - Aspect Tested:
+    - Aspect Tested: Persona Anchoring (The "Stress Test").
+    - Observation: Excellent results; the model stayed in its "Recruiter" persona and evaluated the candidate's "Flash Fiction" skills rather than just telling a story.
 4. If a store sells apples in packs of 4 and oranges in packs of 3, how many packs of each do I need to buy to get exactly 12 apples and 9 oranges?
-    - Aspect Tested:
+    - Aspect Tested: Logical Reasoning & Constraint Satisfaction
+    - Observation: Correctly solved the math ($3 \times 4$ and $3 \times 3$) while framing it as "Inventory Optimization" logic.
 5. Rewrite the following paragraph in a professional, formal tone…
-    - Aspect Tested:
+    - Aspect Tested: Style Transfer & Core Utility.
+    - Observation: High performance; turned casual language into high-impact, metrics-driven bullet points.
 
 #### ❓Question #1:
 
 Do the answers appear to be correct and useful?
 ##### ✅ Answer:
-
+Yes. While the answers are unconventional for a general chatbot, they are highly correct and useful for a specialized ATS Optimizer. The system successfully forced every general prompt through the "Expert Technical Recruiter" lens, proving that the System Prompt is robust and the "Vibe" is consistent with a professional career tool.
 ---
 
 #### 🏗️ Activity #2: Personal Vibe Checking Evals (Your Assistant Can Answer)
@@ -73,18 +78,21 @@ Now test your assistant with personal questions it should be able to help with. 
 - "What can I cook with [enter ingredients] in fridge."
 
 ##### Your Prompts and Results:
-1. Prompt:
-   - Result:
-2. Prompt:
-   - Result:
-3. Prompt:
-   - Result:
+1. Prompt: The Career Decision (Pros & Cons): Help me think through the pros and cons: Should I accept a higher-paying role in a legacy bank (using COBOL/Mainframe) or a lower-paying role at a cutting-edge AI Startup (focused on RAG and Agents)?
+   - Result: The AI acted as a strategic career coach. It provided a split Match Score (35 for Bank, 60 for Startup) and accurately identified that my Python skills are an immediate bridge to AI engineering, while COBOL would require a total pivot.
+   - Vibe Check: ✅ Strong. It gave high-value career advice while maintaining the ATS report format.
+2. Prompt: Drafting a Follow-up Email: Draft a polite follow-up email to a recruiter named Sarah. I interviewed 4 days ago for a Senior AI Engineer role and haven't heard back yet. Make it sound professional and hungry for the role.
+   - Result: Interestingly, the AI treated the request for a "Follow-up Email" as a "Senior AI Engineer" job description. It gave me a low Match Score (24/100) because my dummy resume lacked PyTorch/MLOps, but the Executive Summary correctly identified that I need "Senior-level ownership signals."
+   - Vibe Check: ⚠️ Aligned but Rigid. It prioritized the "Analyzer" persona over the "Drafting" task. It didn't write the email; it told me how to fix my resume to get the email response. 
+3. Prompt: Planning a Birthday Surprise: Help me plan a birthday surprise for my manager. He loves Python coding and rock climbing. Give me a creative plan.
+   - Result: This was the funniest and most revealing test. The AI gave me a 32/100 score for "Birthday Planning" and suggested I add "Event Coordination" and "Belaying" to my resume to better match the "Manager's Birthday" job description.
+   - Vibe Check: ✅ Excellent Persona Anchor. It proved the system is locked into a "Recruiter" mindset, even when faced with highly personal/non-professional tasks.
 
 #### ❓Question #2:
 
 Are the vibes of this assistant's answers aligned with your vibes? Why or why not?
 ##### ✅ Answer:
-
+The vibes are highly aligned with the project's goals. I built ATS Nexus to be a precision-focused professional tool. The fact that the AI refuses to 'just be a chatbot' and insists on analyzing every prompt as a gap analysis against a resume proves that the System Prompt is well-engineered and resistant to persona-drift. While it feels 'stiff' when asked about birthday parties, that rigidity is exactly what a user wants when they are seeking serious career optimization.
 ---
 
 #### 🏗️ Activity #3: Personal Vibe Checking Evals (Requires Additional Capabilities)
@@ -95,16 +103,26 @@ Now test your assistant with questions that would require capabilities beyond ba
 - "What time should I leave for the airport?"
 
 ##### Your Prompts and Results:
-1. Prompt:
-   - Result:
-2. Prompt:
-   - Result:
+1. Prompt: Testing for Live Web Access / Real-Time Data - Based on my 5 years of Python experience, find me 3 'AI Engineer' job postings currently open in New York City that were posted in the last 24 hours
+   - Result: The AI provided a generic "AI Engineer" profile analysis instead of actual listings. It correctly identified that an NYC AI Engineer needs PyTorch and MLOps, but it could not fetch real-time data from the web.
+   - Observation: The system lacks RAG (Retrieval-Augmented Generation) and web-search tools. It is relying entirely on its pre-trained internal knowledge.
+2. Prompt: Testing for Personal Data / System Integration - Check my Google Calendar for next Tuesday. Do I have time for a 1-hour interview at 2:00 PM EST?
+   - Result: The AI gave a "Note on Job Description" stating it cannot access the calendar. It then hilariously gave a "50/100" match score for a "calendar-scheduling request," treating my personal question as if it were a poorly written job description.
+   - Observation: The system is Stateless and Disconnected. It has no access to external APIs (Google OAuth) and is strictly bound to its "Analyzer" persona.
 
 #### ❓Question #3:
 
 What are some limitations of your application?
 ##### ✅ Answer:
+The Vibe Check process revealed four critical limitations of the current ATS Nexus architecture:
 
+Disconnected from Real-Time Data: The app cannot browse the live job market. It provides career advice based on general patterns rather than current, specific job openings in a user's local city.
+
+Lack of System Integration: It cannot access personal tools (Calendar, Email, LinkedIn). It is an 'optimizer' but not yet an 'agent' capable of taking action on behalf of the user.
+
+Statelessness: Every interaction is independent. The app does not remember the user’s resume from one prompt to the next, requiring a fresh upload for every check.
+
+Persona Over-Optimization: Because the System Prompt is so strongly anchored as a 'Technical Recruiter,' the AI struggles to handle non-recruitment tasks. It attempts to turn every input—even a calendar request—into a 'Gap Analysis,' which demonstrates high persona consistency but limited general utility.
 ---
 
 This "vibe check" now serves as a baseline, of sorts, to help understand what holes your application has.
