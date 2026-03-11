@@ -83,15 +83,17 @@ What is the difference between serverless and dedicated endpoints?
 
 #### ✅ Answer:
 
-_(insert your answer here)_
+Serverless endpoints charge per request with no idle cost, making them cost-effective for low or variable traffic patterns. Dedicated endpoints run continuously and are charged by the hour regardless of usage, but provide guaranteed capacity and consistently lower latency. The key trade-off is that dedicated endpoints offer predictable performance at higher fixed cost, while serverless endpoints offer flexibility and lower cost but may introduce cold starts or rate limits under load.
 
 ### ❓ Question #2:
 
 Why is it important to consider token throughput and latency when choosing an LLM for user-facing applications?
 
+
 #### ✅ Answer:
 
-_(insert your answer here)_
+Token throughput determines how many concurrent requests a system can handle, which matters because a user-facing application that can't serve multiple users simultaneously will create queuing and degraded experience at scale. Latency determines how quickly each individual user receives a response, which matters because long wait times lead to user abandonment — studies consistently show sub-second expectations for interactive interfaces. When choosing an LLM, these metrics vary significantly across providers and model sizes, so ignoring them risks selecting a model that performs well in isolation but fails under real production traffic conditions.
+
 
 ## Activity 1: RAGAS Evaluation with Cost Analysis
 
